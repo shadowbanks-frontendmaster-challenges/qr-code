@@ -5,9 +5,13 @@
   --White: hsl(0, 0%, 100%);
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Outfit", sans-serif;
   background-color: var(--Slate-300);
   min-height: 100vh;
@@ -17,9 +21,8 @@ body {
 }
 
 .container {
-  box-sizing: border-box;
-  max-width: 320px;
-  max-height: 499px;
+  width: 320px;
+  height: 499px;
   border-radius: 20px;
   background-color: var(--White);
   display: flex;
@@ -29,13 +32,15 @@ body {
 
 img {
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .qr-text {
   padding: 0 16px;
+  margin-top: 24px;
 }
 
-p.heading {
+.heading {
   font-size: 22px;
   font-weight: 700;
   text-align: center;
@@ -46,5 +51,6 @@ p.info {
   font-size: 15px;
   font-weight: 400;
   text-align: center;
-  color: var(--Slate-500)
+  color: var(--Slate-500);
+  margin-top: 16px;
 }

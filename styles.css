@@ -15,15 +15,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 
 .container {
+  box-sizing: border-box;
   max-width: 320px;
   max-height: 499px;
   border-radius: 20px;
@@ -31,18 +25,9 @@ body {
   display: flex;
   flex-direction: column;
   padding: 16px 16px 40px 16px;
-  box-sizing: border-box;
-}
-
-.qr-code {
-  height: 100%;
-  width: 100%;
-  border: 2px solid red;
 }
 
 img {
-  height: 100%;
-  width: 100%;
   border-radius: 10px;
 }
 
@@ -51,14 +36,15 @@ img {
 }
 
 p.heading {
-  font-weight: 700;
-  color: var(--Slate-900);
   font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--Slate-900);
 }
 
 p.info {
   font-size: 15px;
-  text-align: center;
   font-weight: 400;
+  text-align: center;
   color: var(--Slate-500)
 }

@@ -33,4 +33,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Author
 
 - Frontend Mentor - [@shadowbanks](https://www.frontendmentor.io/profile/shadowbanks)
-- X(Twitter) - [@Shadowbanks\_](https://x.com/Shadowbanks_)
+- X(Twitter) - [@Shadowbanks_](https://x.com/Shadowbanks_)

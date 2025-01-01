@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Github](https://github.com/shadowbanks/qr-code)
-- Live Site URL: [Github Page](https://shadowbanks.github.io/qr-code/)
+- Solution URL: [Github](https://github.com/shadowbanks-frontendmaster-challenges/qr-code)
+- Live Site URL: [Github Page](https://shadowbanks-frontendmaster-challenges.github.io/qr-code/)
 
 ## My process
 
